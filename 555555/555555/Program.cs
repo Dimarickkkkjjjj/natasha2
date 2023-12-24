@@ -19,10 +19,10 @@ namespace _555555
             string op = Console.ReadLine();
 
             if (op == "/")
-                Console.WriteLine(A + B);
+                Console.WriteLine(A / B);
 
             if (op == "*")
-                Console.WriteLine(A + B);
+                Console.WriteLine(A * B);
 
 
             if (op == "-")
@@ -30,6 +30,8 @@ namespace _555555
 
             if (op == "+")
                 Console.WriteLine(A + B);
+
+            Console.ReadKey();
 
         }
     }
