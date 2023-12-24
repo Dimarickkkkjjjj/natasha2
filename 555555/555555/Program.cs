@@ -18,20 +18,18 @@ namespace _555555
             Console.WriteLine("Select operation + - * /");
             string op = Console.ReadLine();
 
-           
+            if (op == "/")
+                Console.WriteLine(A + B);
 
-            
             if (op == "*")
-                Console.WriteLine(A * B);
+                Console.WriteLine(A + B);
 
 
+            if (op == "-")
+                Console.WriteLine(A - B);
 
-
-
-
-
-
-            
+            if (op == "+")
+                Console.WriteLine(A + B);
 
         }
     }
