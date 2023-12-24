@@ -20,6 +20,17 @@ namespace _555555
 
             if (op == "-")
                 Console.WriteLine(A - B);
+            
+            
+            
+            
+            
+            
+            
+            
+            if (op == "+")
+                Console.WriteLine(A + B);
+
         }
     }
 }
